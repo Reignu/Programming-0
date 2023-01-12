@@ -1,0 +1,1 @@
+As part of Week 1 we worked through a Python Intro LinkedIn course
