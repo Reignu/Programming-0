@@ -1,0 +1,52 @@
+Exercise 1
+Explore the 'python' command without args - i.e the inner Python shell (repl), practice outputting
+string literals and strings with quotes and awkward characters, for example, make some print
+statements to produce the following output from the program:
+Python is the "most powerful language you can still read".
+- Paul Dubois
+Python is an experiment in how much freedom programmers need. Too much freedom and nobody
+can read another's code; too little and expressiveness is endangered.
+- Guido van Rossum
+I suggested holding a "Python Object Oriented Programming Seminar", but the acronym was
+unpopular.
+- Joseph Strout
+Exercise 2
+Inside the Python inner shell (repl) explore the use of escape sequences:
+\n
+\t
+\b
+… by embedding them into some strings of your choice and printing these strings with print(). Note
+the different effects the escape sequences have on the printed output.
+Exercise 3
+Move your commands into a script called <first_string_commands.py>, ensure to create that and call
+it from command line.
+Exercise 4
+Create a script called einstein.py. Look at the following quotes:
+We cannot solve our problems with the same thinking we used when we created them.
+Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop
+questioning.
+It’s not that I’m so smart, it’s just that I stay with problems longer.
+Print each quote followed by attribution to Albert Einstein in the following form:
+“Quote text, Quote text, Quote text, Quote text, Quote text, Quote text”
+ Albert Einstein
+Exercise 5
+If you didn’t already, inside your script ensure that the string literal “Albert Einstein” is defined in a
+variable called <physicist> which is used 3 times…
+…Google the ‘dry’ acronym for programming and note what it means. I said take a look at the ‘dry’
+acronym for programming and note what it means. I said take a look at the ‘dry’ acronym for
+programming and note what it means. I said…
+… over time you will learn that repetition in code is also a waste of time. Code re-use is the long-term
+goal.
+Exercise 6
+Inside the <einstein.py> take each quote and create some code that counts the number of words in
+each quote. The general function len() and the string strip() method might be useful here.
+Exercise 7
+In einstein.py, discover (by coding it) the most frequently occurring character in the variable
+<physicist>, recording that string in the variable <eqn> then concatenate to this the string:
+“ = mc^2”
+Finally, assuming a mass of 80% (Einstein was quite small) of an ‘average weight’ (say 90kg) and
+constant speed c (look up the value of that), output the string:
+According to the equation “e = mc^2”, a famous physicist has mass <mass> and, therefore, energy
+<number>
+….where the numerical values <#> are embedded in the string by concatenation of appropriate
+numerical variables.
