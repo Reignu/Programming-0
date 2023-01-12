@@ -1,0 +1,12 @@
+Exercise 1a
+Create a script to_integer_1.py that implements a conversation from a binary string (input) to its corresponding integer value. You should implement this using ‘if else’ logic. For example, if bit_pisition == 0 (bit on left), the exponent associated with the formula is also 0 etc. Limit the length of the input string to 8 bits (or less).
+Exercise 1b
+Create a script to_integer_2.py that does similar to 1a, but uses a for loop this time, exploiting an index during the iteration to give the exponent. You should find you appreciate the solution 1b more - it can easily be used to cover other cases (not just 8 bits). In this light, explore on the internet the meaning of ‘hard’ v ‘soft’ coding.
+Exercise 2
+2) create a scrip distances.py that assumes 4 numbers are input from the command line, in order of x1, y1, x2, y2, followed by a further string argument that will be a label “Euclidean” or “Manhattan”. The script outputs either the Euclidean distance or the Manhattan distance appropriately; you must look-up and implement these measures of distance.
+Exercise 3
+Create a scrip hole.py. The script outputs a square set of homogeneous characters (use ‘#’) to the console; in the middle of that square is a hole with radius r < (root / 2) and r >= 1 where root is the length of the side of the square. The parameter “root” will be assumed to be a command line input. Notice the problem with the idea of ‘middle’ when root is an even number.
+Exercise 4
+Create a script that has a variable at the top <n_words>, set this to say 10, then create some code that prints 10 completely random words built from lower case letters from the alphabet.
+Exercise 5
+It is important to comment code! In each script, above, add a script comment header, completing the following: # SCRIPT NAME: <> # DESCRIPTION: # USAGE: # USAGE EXAMPLE:
